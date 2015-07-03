@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Cuprum);
 
 body {
   background-color: #232B2B;
@@ -7,9 +8,9 @@ body {
 h1 {
   text-align: center;
   font-family:"Lobster";
-  color: #DC3D24;
+  color: #FF6262;
   width: 100%;
-  font-size: 400%;
+  font-size: 350%;
 }
 
 h3 {
@@ -38,9 +39,50 @@ a {
   width: 30%;
   font-size: 300%;
   border-radius: 5px;
-  
- 
 }
+
+img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.questions {
+  color: #7B8080;
+  text-align: left;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Cuprum";
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  font-size: 115%;
+  color: #19AC87;
+}
+
+h2 {
+  color: #19AC87;
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 400%;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+
 
 
 

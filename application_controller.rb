@@ -12,8 +12,13 @@ class MyApp < Sinatra::Base
     erb :quiz
   end 
   
-  get '/results' do
+  
+  post '/quiz-results' do
+    restaurants = Restaurants.new 
+    restaurants.responses = params
+    @results = restaurants.final_answer
     erb :results
-  end 
+  end  
 
 end
+
